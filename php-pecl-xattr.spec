@@ -10,7 +10,8 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	b7b9c6ab431ea59e7d9381ca18b79653
-URL:		http://pecl.php.net/package/Modname/
+URL:		http://pecl.php.net/package/xattr/
+BuildRequires:	attr-devel
 BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0
@@ -27,8 +28,8 @@ that support them. Requires libattr from Linux XFS project.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl
-Ten pakiet umo¿liwia manipulowanie rozszerzonymi atrybutami systemow
-plikow.
+Ten pakiet umo¿liwia manipulowanie rozszerzonymi atrybutami systemów
+plików.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
