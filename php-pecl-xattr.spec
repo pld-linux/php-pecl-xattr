@@ -1,15 +1,15 @@
 %define		_modname	xattr
-%define		_status		beta
+%define		_status		stable
 
 Summary:	%{_modname} - extended attributes
 Summary(pl):	%{_modname} - rozszerzone atrybuty
 Name:		php-pecl-%{_modname}
-Version:	0.9
+Version:	1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	b7b9c6ab431ea59e7d9381ca18b79653
+# Source0-md5:	1f7b7bd91e636ec3e641bac431a1411a
 URL:		http://pecl.php.net/package/xattr/
 BuildRequires:	attr-devel
 BuildRequires:	libtool
