@@ -12,7 +12,6 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	1f7b7bd91e636ec3e641bac431a1411a
 URL:		http://pecl.php.net/package/xattr/
 BuildRequires:	attr-devel
-BuildRequires:	libtool
 BuildRequires:	php-devel >= 3:5.0.0
 Requires:	php-common >= 3:5.0.0
 Obsoletes:	php-pear-%{_modname}
