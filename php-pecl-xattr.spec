@@ -1,7 +1,7 @@
 %define		_modname	xattr
 %define		_status		stable
 Summary:	%{_modname} - extended attributes
-Summary(pl):	%{_modname} - rozszerzone atrybuty
+Summary(pl.UTF-8):   %{_modname} - rozszerzone atrybuty
 Name:		php-pecl-%{_modname}
 Version:	1.0
 Release:	6
@@ -24,9 +24,9 @@ that support them. Requires libattr from Linux XFS project.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Ten pakiet umoøliwia manipulowanie rozszerzonymi atrybutami systemÛw
-plikÛw.
+%description -l pl.UTF-8
+Ten pakiet umo≈ºliwia manipulowanie rozszerzonymi atrybutami system√≥w
+plik√≥w.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
