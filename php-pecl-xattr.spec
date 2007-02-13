@@ -1,7 +1,7 @@
 %define		_modname	xattr
 %define		_status		stable
 Summary:	%{_modname} - extended attributes
-Summary(pl.UTF-8):   %{_modname} - rozszerzone atrybuty
+Summary(pl.UTF-8):	%{_modname} - rozszerzone atrybuty
 Name:		php-pecl-%{_modname}
 Version:	1.0
 Release:	6
