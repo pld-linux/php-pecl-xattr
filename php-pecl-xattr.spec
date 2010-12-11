@@ -4,7 +4,7 @@ Summary:	%{_modname} - extended attributes
 Summary(pl.UTF-8):	%{_modname} - rozszerzone atrybuty
 Name:		php-pecl-%{_modname}
 Version:	1.1.0
-Release:	2
+Release:	3
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
