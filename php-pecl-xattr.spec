@@ -1,15 +1,14 @@
 %define		php_name	php%{?php_suffix}
-%define		modname	xattr
-%define		status		stable
+%define		modname		xattr
 Summary:	%{modname} - extended attributes
 Summary(pl.UTF-8):	%{modname} - rozszerzone atrybuty
 Name:		%{php_name}-pecl-%{modname}
-Version:	1.1.0
-Release:	5
+Version:	1.2.0
+Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	bbfe0649cf71105b7e69342fcfc132df
+# Source0-md5:	f6b2bd0be8f88a0b29e7608e3d190df6
 URL:		http://pecl.php.net/package/xattr/
 BuildRequires:	attr-devel
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
@@ -23,13 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package allows to manipulate extended attributes on filesystems
 that support them. Requires libattr from Linux XFS project.
 
-In PECL status of this extension is: %{status}.
-
 %description -l pl.UTF-8
 Ten pakiet umożliwia manipulowanie rozszerzonymi atrybutami systemów
 plików.
-
-To rozszerzenie ma w PECL status: %{status}.
 
 %prep
 %setup -qc
