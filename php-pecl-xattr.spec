@@ -3,14 +3,14 @@
 Summary:	%{modname} - extended attributes
 Summary(pl.UTF-8):	%{modname} - rozszerzone atrybuty
 Name:		%{php_name}-pecl-%{modname}
-Version:	1.2.0
-Release:	4
+Version:	1.4.1
+Release:	1
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	f6b2bd0be8f88a0b29e7608e3d190df6
+# Source0-md5:	b6798e969d8f3d365c4c435d68325d57
 URL:		http://pecl.php.net/package/xattr/
-BuildRequires:	%{php_name}-devel >= 3:5.0.4
+BuildRequires:	%{php_name}-devel >= 4:7.2.0
 BuildRequires:	attr-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
